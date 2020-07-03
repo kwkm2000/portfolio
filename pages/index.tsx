@@ -1,11 +1,10 @@
 import Link from 'next/link'
-import Layout from '../components/Layout'
 import { attributes, react as HomeContent } from '../content/home.md';
 
 const { title, cats } = attributes;
 
 const IndexPage = () => (
-  <Layout title="Home | Next.js + TypeScript Example">
+  <>
     <h1>Hello Next.js 👋</h1>
     <article>
       <h1>{title}</h1>
@@ -22,7 +21,7 @@ const IndexPage = () => (
     <Link href="/about">
       <a>About</a>
     </Link>
-  </Layout>
+  </>
 )
 
 export default IndexPage
