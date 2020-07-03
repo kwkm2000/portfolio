@@ -8,12 +8,9 @@ type Props = {
 }
 
 const Layout = ({ children, title = 'This is the default title' }: Props) => (
-  <div>
+  <div className="wrapper">
     <Head>
       <title>{title}</title>
-      <meta charSet="utf-8" />
-      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     </Head>
     <header>
       <nav>
