@@ -5,14 +5,8 @@ type Props = {}
 class Document extends NextDocument<Props> {
     render() {
         return (
-            <Html lang="ja"  >
+            <Html lang="ja">
                 <Head>
-                    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-
-                    {/* <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
-          /> */}
                     {/* <link rel="shortcut icon" href="/favicon.png" key="shortcutIcon" /> */}
                     {/* <link rel="manifest" href="/manifest.json" /> */}
                 </Head>
