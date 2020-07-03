@@ -1,4 +1,4 @@
-// import Link from 'next/link'
+import Link from 'next/link'
 import Layout from '../components/Layout'
 import { attributes, react as HomeContent } from '../content/home.md';
 
@@ -19,6 +19,9 @@ const IndexPage = () => (
         ))}
       </ul>
     </article>
+    <Link href="/about">
+      <a>About</a>
+    </Link>
   </Layout>
 )
 
