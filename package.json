@@ -11,12 +11,15 @@
   "dependencies": {
     "next": "latest",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "styled-components": "^5.1.1",
+    "styled-reset": "^4.2.0"
   },
   "devDependencies": {
     "@types/node": "^12.12.21",
     "@types/react": "^16.9.16",
     "@types/react-dom": "^16.9.4",
+    "@types/styled-components": "^5.1.1",
     "frontmatter-markdown-loader": "^3.6.0",
     "typescript": "3.7.3"
   },

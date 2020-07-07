@@ -1,5 +1,6 @@
 import { AppProps } from 'next/app'
 import Head from 'next/head'
+import { GlobalStyle } from '../components/GlobalStyle'
 
 const App = ({ Component, pageProps }: AppProps) =>
     (
@@ -13,6 +14,7 @@ const App = ({ Component, pageProps }: AppProps) =>
                 {/* <link rel="shortcut icon" href="/favicon.png" key="shortcutIcon" /> */}
                 {/* <link rel="manifest" href="/manifest.json" /> */}
             </Head>
+            <GlobalStyle />
             <Component {...pageProps} />
         </>
     )
